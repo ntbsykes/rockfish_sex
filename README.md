@@ -4,4 +4,4 @@
 
 #### Nathan T.B. Sykes, Sree Rohit Raj Kolora, Peter H. Sudmant, Gregory L. Owens
 
-Here are the scripts used in this project.
+Here are the metadata and scripts used in this project.
