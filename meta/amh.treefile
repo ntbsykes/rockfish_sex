@@ -1,0 +1,220 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=118;
+	taxlabels
+	'Adelosebastes latens Chr.05'
+	'Gasterosteus aculeatus'
+	'Hozukius emblemarius Chr.05'
+	'Hozukius emblemarius unplaced'
+	'Hozukius guyotensis Chr.05'
+	'Hozukius guyotensis unplaced'
+	'Sebastes alutus Chr.04'
+	'Sebastes alutus Chr.05'
+	'Sebastes atrovirens Chr.05'
+	'Sebastes auriculatus Chr.05'
+	'Sebastes aurora Chr.05'
+	'Sebastes babcocki Chr.05'
+	'Sebastes babcocki unplaced'
+	'Sebastes baramenuke Chr.04'
+	'Sebastes baramenuke Chr.05'
+	'Sebastes borealis Chr.05'
+	'Sebastes carnatus Chr.05'
+	'Sebastes caurinus Chr.05'
+	'Sebastes cheni Chr.05'
+	'Sebastes chlorostictus Chr.05'
+	'Sebastes chlorostictus Chr.08'
+	'Sebastes ciliatus Chr.04'
+	'Sebastes ciliatus Chr.05'
+	'Sebastes constellatus Chr.03'
+	'Sebastes constellatus Chr.05'
+	'Sebastes crameri Chr.05'
+	'Sebastes dalli Chr.05'
+	'Sebastes diaconus Chr.05'
+	'Sebastes diploproa Chr.04'
+	'Sebastes diploproa Chr.05'
+	'Sebastes elongatus Chr.04'
+	'Sebastes elongatus Chr.05'
+	'Sebastes ensifer Chr.04'
+	'Sebastes ensifer Chr.05'
+	'Sebastes entomelas Chr.05'
+	'Sebastes exsul Chr.05'
+	'Sebastes fasciatus Chr.05'
+	'Sebastes flavidus Chr.04'
+	'Sebastes flavidus Chr.22'
+	'Sebastes glaucus Chr.05'
+	'Sebastes goodei Chr.05'
+	'Sebastes helvomaculatus Chr.04'
+	'Sebastes helvomaculatus Chr.05'
+	'Sebastes hopkinsi Chr.05'
+	'Sebastes hubbsi Chr.04'
+	'Sebastes hubbsi Chr.05'
+	'Sebastes inermis Chr.05'
+	'Sebastes iracundus Chr.04'
+	'Sebastes iracundus Chr.05'
+	'Sebastes itinus Chr.05'
+	'Sebastes jordani Chr.05'
+	'Sebastes joyneri Chr.05'
+	'Sebastes kiyomatsui Chr.05'
+	'Sebastes koreanus Chr.04'
+	'Sebastes koreanus Chr.05'
+	'Sebastes levis Chr.04'
+	'Sebastes levis Chr.05'
+	'Sebastes maliger Chr.05'
+	'Sebastes matsubarae Chr.05'
+	'Sebastes melanops Chr.05'
+	'Sebastes melanops Chr.06'
+	'Sebastes melanostomus Chr.02'
+	'Sebastes melanostomus Chr.05'
+	'Sebastes mentella Chr.23'
+	'Sebastes miniatus Chr.20'
+	'Sebastes minor Chr.05'
+	'Sebastes moseri Chr.05'
+	'Sebastes mystinus Chr.05'
+	'Sebastes nebulosus Chr.05'
+	'Sebastes nigrocinctus Chr.04'
+	'Sebastes nigrocinctus Chr.05'
+	'Sebastes nivosus Chr.05'
+	'Sebastes nudus Chr.04'
+	'Sebastes nudus Chr.05'
+	'Sebastes oblongus Chr.05'
+	'Sebastes oculatus Chr.04'
+	'Sebastes oculatus Chr.05'
+	'Sebastes pachycephalus Chr.05'
+	'Sebastes paucispinis Chr.05'
+	'Sebastes pinniger Chr.05'
+	'Sebastes polyspinis Chr.04'
+	'Sebastes polyspinis Chr.05'
+	'Sebastes proriger Chr.05'
+	'Sebastes rastrelliger Chr.05'
+	'Sebastes reedi Chr.05'
+	'Sebastes reedi inversion Chr.05'
+	'Sebastes rosaceus Chr.04'
+	'Sebastes rosaceus Chr.05'
+	'Sebastes rosenblatti Chr.05'
+	'Sebastes rosenblatti Chr.06'
+	'Sebastes ruberrimus Chr.05'
+	'Sebastes rubrivinctus Chr.05'
+	'Sebastes saxicola Chr.05'
+	'Sebastes schlegelii Chr.04'
+	'Sebastes schlegelii Chr.05'
+	'Sebastes scythropus Chr.17'
+	'Sebastes semicinctus Chr.05'
+	'Sebastes serriceps Chr.04'
+	'Sebastes serriceps Chr.05'
+	'Sebastes steindachneri Chr.05'
+	'Sebastes taczanowskii Chr.05'
+	'Sebastes thompsoni Chr.04'
+	'Sebastes thompsoni Chr.05'
+	'Sebastes trivittatus Chr.05'
+	'Sebastes umbrosus Chr.05'
+	'Sebastes umbrosus Chr.14'
+	'Sebastes variabilis Chr.05'
+	'Sebastes variegatus Chr.05'
+	'Sebastes vulpes Chr.05'
+	'Sebastes wilsoni Chr.05'
+	'Sebastes zacentrus Chr.05'
+	'Sebastes zonatus Chr.04'
+	'Sebastes zonatus Chr.05'
+	'Sebastiscus albofasciatus Chr.05'
+	'Sebastiscus tertius Chr.05'
+	'Sebastolobus alascanus Chr.05'
+	'Sebastolobus alascanus unplaced'
+	'Sebastolobus altivelis Chr.05'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Gasterosteus aculeatus'[&!rotate=true]:0.470919,(('Sebastolobus alascanus Chr.05':0.006515,'Sebastolobus alascanus unplaced':0.008514)[&Bootstrapping=100]:0.002362,'Sebastolobus altivelis Chr.05':0.007937)[&Bootstrapping=100]:0.052801,(('Sebastiscus albofasciatus Chr.05':0.00853,'Sebastiscus tertius Chr.05':0.00455)[&Bootstrapping=100]:0.009852,(((('Sebastes matsubarae Chr.05':0.008525,'Sebastes iracundus Chr.05':0.00868)[&Bootstrapping=98]:0.001484,((((((('Sebastes jordani Chr.05':0.003866,('Sebastes goodei Chr.05':0.004204,'Sebastes paucispinis Chr.05':0.002173)[&Bootstrapping=92]:3.13E-4)[&Bootstrapping=100]:0.002541,'Sebastes baramenuke Chr.05':0.004359)[&Bootstrapping=95]:0.002443,('Sebastes mentella Chr.23':0.001165,'Sebastes fasciatus Chr.05':0.001377)[&Bootstrapping=100]:0.004999)[&Bootstrapping=71]:3.67E-4,'Sebastes levis Chr.05':0.005899)[&Bootstrapping=39]:3.4E-4,(('Sebastes minor Chr.05':0.004159,'Sebastes steindachneri Chr.05':0.00149)[&Bootstrapping=97]:0.00252,('Sebastes itinus Chr.05':0.005423,('Sebastes alutus Chr.05':2.0E-6,'Sebastes borealis Chr.05':2.0E-6)[&Bootstrapping=31]:0.004232)[&Bootstrapping=28]:9.59E-4)[&Bootstrapping=35]:5.79E-4)[&Bootstrapping=47]:0.00105,('Sebastes glaucus Chr.05':0.005687,((('Sebastes diaconus Chr.05':2.0E-6,'Sebastes mystinus Chr.05':3.0E-6)[&Bootstrapping=100]:0.002139,'Sebastes entomelas Chr.05':0.00249)[&Bootstrapping=100]:0.001437,('Sebastes melanops Chr.05':0.001784,'Sebastes flavidus Chr.22':0.001784)[&Bootstrapping=99]:0.001055)[&Bootstrapping=98]:0.00172)[&Bootstrapping=64]:6.88E-4)[&Bootstrapping=52]:3.94E-4,((((((('Sebastes ruberrimus Chr.05':0.007436,((('Sebastes semicinctus Chr.05':0.003022,'Sebastes saxicola Chr.05':0.002012)[&Bootstrapping=86]:3.44E-4,((((('Sebastes dalli Chr.05':0.003693,'Sebastes rastrelliger Chr.05':0.001337)[&Bootstrapping=47]:2.0E-6,'Sebastes atrovirens Chr.05':2.0E-6)[&Bootstrapping=95]:3.34E-4,('Sebastes aurora Chr.05':3.34E-4,'Sebastes caurinus Chr.05':2.0E-6)[&Bootstrapping=100]:0.001337)[&Bootstrapping=67]:2.0E-6,'Sebastes carnatus Chr.05':6.69E-4)[&Bootstrapping=50]:3.35E-4,'Sebastes auriculatus Chr.05':0.002352)[&Bootstrapping=54]:3.21E-4)[&Bootstrapping=61]:3.34E-4,('Sebastes nebulosus Chr.05':0.001689,'Sebastes maliger Chr.05':0.001664)[&Bootstrapping=81]:3.32E-4)[&Bootstrapping=100]:0.00203)[&Bootstrapping=92]:3.25E-4,(('Sebastes reedi inversion Chr.05':3.0E-6,'Sebastes reedi Chr.05':2.0E-6)[&Bootstrapping=100]:9.99E-4,'Sebastes crameri Chr.05':0.001003)[&Bootstrapping=93]:0.004039)[&Bootstrapping=57]:2.89E-4,('Sebastes zacentrus Chr.05':0.002818,'Sebastes proriger Chr.05':0.002816)[&Bootstrapping=66]:3.93E-4)[&Bootstrapping=77]:0.001336,'Sebastes hopkinsi Chr.05':0.005131)[&Bootstrapping=78]:0.001499,((((((((((((('Sebastes hubbsi Chr.05':0.003761,'Sebastes oblongus Chr.05':0.001504)[&Bootstrapping=98]:3.68E-4,('Sebastes nudus Chr.05':0.001123,'Sebastes pachycephalus Chr.05':0.001123)[&Bootstrapping=100]:0.001497)[&Bootstrapping=56]:3.0E-6,'Sebastes koreanus Chr.05':0.002997)[&Bootstrapping=100]:0.00112,'Sebastes nivosus Chr.05':0.00224)[&Bootstrapping=79]:3.0E-6,(('Sebastes taczanowskii Chr.05':0.004899,'Sebastes schlegelii Chr.05':0.001497)[&Bootstrapping=100]:0.001125,('Sebastes trivittatus Chr.05':7.48E-4,('Sebastes vulpes Chr.05':2.0E-6,'Sebastes zonatus Chr.05':3.76E-4)[&Bootstrapping=100]:0.001126)[&Bootstrapping=100]:7.46E-4)[&Bootstrapping=95]:0.001499)[&Bootstrapping=100]:0.001128,'Sebastes kiyomatsui Chr.05':0.001655)[&Bootstrapping=96]:0.001507,((('Sebastes inermis Chr.05':0.002597,'Sebastes cheni Chr.05':4.09E-4)[&Bootstrapping=96]:7.53E-4,'Sebastes joyneri Chr.05':0.001467)[&Bootstrapping=100]:7.83E-4,'Sebastes thompsoni Chr.05':0.002635)[&Bootstrapping=100]:0.003751)[&Bootstrapping=92]:0.001504,'Sebastes melanostomus Chr.05':0.002585)[&Bootstrapping=33]:3.97E-4,'Sebastes moseri Chr.05':0.002624)[&Bootstrapping=28]:3.69E-4,(((('Sebastes rubrivinctus Chr.05':7.45E-4,'Sebastes serriceps Chr.05':0.003)[&Bootstrapping=88]:7.47E-4,'Sebastes diploproa Chr.05':0.001494)[&Bootstrapping=68]:2.0E-6,'Sebastes nigrocinctus Chr.05':7.46E-4)[&Bootstrapping=47]:2.0E-6,'Sebastes babcocki Chr.05':3.73E-4)[&Bootstrapping=92]:0.002255)[&Bootstrapping=59]:0.00113,('Sebastes rosaceus Chr.05':0.001992,((('Sebastes chlorostictus Chr.05':0.001777,('Sebastes exsul Chr.05':0.001063,'Sebastes rosenblatti Chr.05':3.0E-6)[&Bootstrapping=55]:3.54E-4)[&Bootstrapping=55]:3.55E-4,('Sebastes helvomaculatus Chr.05':0.002129,('Sebastes constellatus Chr.05':0.001064,'Sebastes oculatus Chr.05':3.55E-4)[&Bootstrapping=93]:2.0E-6)[&Bootstrapping=69]:7.1E-4)[&Bootstrapping=84]:5.78E-4,'Sebastes umbrosus Chr.05':4.86E-4)[&Bootstrapping=100]:0.002499)[&Bootstrapping=100]:0.001203)[&Bootstrapping=51]:0.001404,'Sebastes scythropus Chr.17':0.006462)[&Bootstrapping=40]:5.6E-4,('Sebastes variegatus Chr.05':0.002349,'Sebastes wilsoni Chr.05':0.001208)[&Bootstrapping=97]:0.001422)[&Bootstrapping=54]:8.44E-4)[&Bootstrapping=40]:2.0E-6,(('Sebastes ciliatus Chr.05':2.0E-6,'Sebastes variabilis Chr.05':2.0E-6)[&Bootstrapping=100]:8.43E-4,'Sebastes polyspinis Chr.05':9.36E-4)[&Bootstrapping=94]:0.001695)[&Bootstrapping=55]:8.7E-4,('Sebastes elongatus Chr.05':0.005379,('Sebastes miniatus Chr.20':0.002492,'Sebastes pinniger Chr.05':0.004536)[&Bootstrapping=97]:0.001734)[&Bootstrapping=67]:0.001056)[&Bootstrapping=43]:1.41E-4)[&Bootstrapping=91]:0.001591)[&Bootstrapping=100]:0.003894,('Adelosebastes latens Chr.05':0.010632,('Hozukius emblemarius Chr.05':0.002721,'Hozukius guyotensis Chr.05':0.002427)[&Bootstrapping=100]:0.008072)[&Bootstrapping=100]:0.001797)[&Bootstrapping=96]:0.001277,(('Hozukius emblemarius unplaced'[&!color=#000000]:0.001497,'Hozukius guyotensis unplaced'[&!color=#000000]:0.00199)[&Bootstrapping=100,!color=#000000]:0.004048,((((('Sebastes hubbsi Chr.04'[&!color=#000000]:0.007789,('Sebastes koreanus Chr.04'[&!color=#000000]:0.006466,'Sebastes nudus Chr.04'[&!color=#000000]:0.005781)[&Bootstrapping=99,!color=#000000]:6.2E-4)[&Bootstrapping=100,!color=#000000]:0.001007,('Sebastes schlegelii Chr.04'[&!color=#000000]:0.007443,'Sebastes zonatus Chr.04'[&!color=#000000]:0.001692)[&Bootstrapping=99,!color=#000000]:3.16E-4)[&Bootstrapping=100,!color=#000000]:0.001004,'Sebastes thompsoni Chr.04'[&!color=#000000]:0.008475)[&Bootstrapping=82,!color=#000000]:2.0E-6,(((('Sebastes ensifer Chr.05'[&!color=#000000]:0.004028,(('Sebastes ensifer Chr.04'[&!color=#000000]:0.001004,'Sebastes rosenblatti Chr.06'[&!color=#000000]:3.35E-4)[&Bootstrapping=70,!color=#000000]:3.0E-6,'Sebastes chlorostictus Chr.08'[&!color=#000000]:2.0E-6)[&Bootstrapping=86,!color=#000000]:2.0E-6)[&Bootstrapping=77,!color=#000000]:3.33E-4,(((('Sebastes umbrosus Chr.14'[&!color=#000000]:6.69E-4,'Sebastes helvomaculatus Chr.04'[&!color=#000000]:2.0E-6)[&Bootstrapping=99,!color=#000000]:3.35E-4,'Sebastes constellatus Chr.03'[&!color=#000000]:3.35E-4)[&Bootstrapping=17,!color=#000000]:2.0E-6,'Sebastes oculatus Chr.04'[&!color=#000000]:2.0E-6)[&Bootstrapping=19,!color=#000000]:3.0E-6,'Sebastes rosaceus Chr.04'[&!color=#000000]:3.35E-4)[&Bootstrapping=99,!color=#000000]:3.36E-4)[&Bootstrapping=100,!color=#000000]:0.001671,('Sebastes levis Chr.04'[&!color=#000000]:0.001677,('Sebastes nigrocinctus Chr.04'[&!color=#000000]:0.001674,('Sebastes babcocki unplaced'[&!color=#000000]:6.69E-4,('Sebastes serriceps Chr.04'[&!color=#000000]:0.001004,'Sebastes diploproa Chr.04'[&!color=#000000]:3.35E-4)[&Bootstrapping=100,!color=#000000]:3.35E-4)[&Bootstrapping=89,!color=#000000]:2.0E-6)[&Bootstrapping=99,!color=#000000]:6.7E-4)[&Bootstrapping=98,!color=#000000]:3.33E-4)[&Bootstrapping=97,!color=#000000]:3.33E-4,((('Sebastes alutus Chr.04'[&!color=#000000]:0.001674,('Sebastes ciliatus Chr.04'[&!color=#000000]:6.7E-4,'Sebastes polyspinis Chr.04'[&!color=#000000]:3.43E-4)[&Bootstrapping=100,!color=#000000]:3.35E-4)[&Bootstrapping=100,!color=#000000]:3.35E-4,(('Sebastes flavidus Chr.04'[&!color=#000000]:0.001678,'Sebastes melanops Chr.06'[&!color=#000000]:0.001342)[&Bootstrapping=98,!color=#000000]:3.32E-4,'Sebastes baramenuke Chr.04'[&!color=#000000]:0.001677)[&Bootstrapping=42,!color=#000000]:2.0E-6)[&Bootstrapping=30,!color=#000000]:2.0E-6,'Sebastes iracundus Chr.04'[&!color=#000000]:2.0E-6)[&Bootstrapping=43,!color=#000000]:2.0E-6)[&Bootstrapping=98,!color=#000000]:6.67E-4)[&Bootstrapping=91,!color=#000000]:6.57E-4,('Sebastes elongatus Chr.04'[&!color=#000000]:0.001003,'Sebastes melanostomus Chr.02'[&!color=#000000]:0.001677)[&Bootstrapping=100,!color=#000000]:0.001015)[&Bootstrapping=100,!color=#000000]:0.015675)[&Bootstrapping=100,!rotate=true,!color=#000000]:0.004543)[&Bootstrapping=77,!rotate=true]:0.002083)[&Bootstrapping=91,!rotate=true]:0.011261);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="Bootstrapping";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
